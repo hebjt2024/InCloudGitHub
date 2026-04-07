@@ -142,9 +142,14 @@ jobs:
       
       - name: 💾 提交扫描历史和报告
         if: always()
+        env:
+          # 使用具有更高权限的 Token
+          GITHUB_TOKEN: ${{ secrets.PAT_WITH_BYPASS }}
         run: |
-          git config user.name "gaocaipeng"
-          git config user.email "2540225402@qq.com"
+          git config --global credential.helper store
+          echo "https://x-access-token:${GITHUB_TOKEN}@github.com" > ~/.git-credentials
+          git config user.name "cuijingtao"
+          git config user.email "cuijingtao@gmail.com"
           
           # 添加扫描历史
           git add scan_history/
