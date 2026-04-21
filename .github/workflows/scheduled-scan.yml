@@ -140,55 +140,70 @@ jobs:
           retention-days: 90
           if-no-files-found: ignore
       
-      - name: 💾 提交扫描历史和报告
+      # ------------------ 新增：调试 PAT 的步骤 ------------------
+      - name: 🔍 调试：验证 PAT 身份与权限
         if: always()
         env:
-          # 使用具有更高权限的 Token
+          DEBUG_PAT: ${{ secrets.PAT_WITH_BYPASS }}
+        run: |
+          set -e
+          echo "::add-mask::${DEBUG_PAT}"
+          echo "== 安装 jq（用于解析 JSON） =="
+          sudo apt-get update -y
+          sudo apt-get install -y jq
+          echo "== 验证 token 所属用户 =="
+          curl -s -H "Authorization: token ${DEBUG_PAT}" https://api.github.com/user | jq '{login: .login, id: .id, name: .name}'
+          echo "== 查看 token scopes =="
+          curl -s -I -H "Authorization: token ${DEBUG_PAT}" https://api.github.com/ | grep -i 'x-oauth-scopes' || true
+          echo "== 尝试获取分支保护信息（若无权限则会提示） =="
+          curl -s -H "Authorization: token ${DEBUG_PAT}" https://api.github.com/repos/${{ github.repository }}/branches/main/protection || true
+
+      # ------------------ 修订：脱敏并推送到新分支，避免直接推 main ------------------
+      - name: 💾 提交扫描历史和报告（脱敏并推送到新分支）
+        if: always()
+        env:
           GITHUB_TOKEN: ${{ secrets.PAT_WITH_BYPASS }}
         run: |
+          set -e
+          echo "::add-mask::${GITHUB_TOKEN}"
           git config --global credential.helper store
           echo "https://x-access-token:${GITHUB_TOKEN}@github.com" > ~/.git-credentials
           git config user.name "cuijingtao"
           git config user.email "cuijingtao@gmail.com"
-          
-          # 添加扫描历史
-          git add scan_history/
-          
-          # 添加扫描报告
+
+          # 添加扫描历史（如果存在）
+          git add scan_history/ || true
+
+          # 对报告进行脱敏（示例规则，请根据你的扫描报告内容扩展）
+          if [ -d "scan_reports" ]; then
+            find scan_reports -type f -name '*.txt' -print0 | while IFS= read -r -d '' f; do
+              # 以下正则为示例：根据实际需要增加/调整
+              sed -E -i \
+                -e 's/(sk_live|sk_test|sk-[A-Za-z0-9_-]{16,})/[REDACTED_API_KEY]/g' \
+                -e 's/(AIza[0-9A-Za-z\-_]{35})/[REDACTED_GOOGLE_API_KEY]/g' \
+                -e 's/(AKIA[0-9A-Z]{16})/[REDACTED_AWS_KEY]/g' "$f" || true
+            done
+          fi
+
           if [ -d "scan_reports" ] && [ "$(ls -A scan_reports 2>/dev/null)" ]; then
             git add scan_reports/
-            echo "✅ 发现扫描报告，将一并提交"
+            echo "✅ 报告已脱敏并加入暂存区"
           fi
-          
-          # 检查是否有更改
+
+          # 如果没有变更则退出
           if git diff --cached --quiet; then
-            echo "没有新的扫描历史或报告"
-          else
-            # 统计信息
-            HISTORY_CHANGED=$(git diff --cached --name-only | grep "scan_history/" | wc -l | tr -d ' ')
-            REPORTS_CHANGED=$(git diff --cached --name-only | grep "scan_reports/" | wc -l | tr -d ' ')
-            
-            # 提交消息
-            COMMIT_MSG="📝 更新扫描数据 [skip ci]"
-            if [ "$HISTORY_CHANGED" -gt 0 ] && [ "$REPORTS_CHANGED" -gt 0 ]; then
-              COMMIT_MSG="📝 更新扫描历史和报告 [skip ci]"
-            elif [ "$REPORTS_CHANGED" -gt 0 ]; then
-              COMMIT_MSG="📄 添加扫描报告 [skip ci]"
-            fi
-            
-            git commit -m "$COMMIT_MSG"
-            
-            # 同步远程更改，避免并发推送冲突
-            git pull --rebase origin main || {
-              echo "⚠️ Rebase 冲突，尝试使用本地版本"
-              git rebase --abort
-              git pull --rebase --strategy-option=ours origin main
-            }
-            
-            git push
-            echo "✅ 已提交: 历史文件 $HISTORY_CHANGED 个, 报告文件 $REPORTS_CHANGED 个"
+            echo "没有新的扫描历史或报告可提交"
+            exit 0
           fi
-      
+
+          git commit -m "📝 更新扫描数据（脱敏） [skip ci]" || true
+
+          # 创建新分支并推送，避免修改受保护的 main
+          BRANCH="scan-reports/run-${GITHUB_RUN_ID}"
+          git checkout -b "$BRANCH"
+          git push --set-upstream origin "$BRANCH"
+          echo "✅ 扫描报告已推送到分支 $BRANCH（避免直接推送 main）"
+
       - name: 🚨 创建告警Issue（发现问题时）
         if: steps.analyze.outputs.needs_alert == 'true'
         uses: actions/github-script@v7
