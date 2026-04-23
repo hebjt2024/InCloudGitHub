@@ -32,7 +32,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    OPENAI_API_KEY = "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"
+  │    OPENAI_API_KEY = "[REDACTED_API_KEY]"
   │
   │ 🕐 发现时间: 2025-10-16 03:02:16
   │
@@ -50,7 +50,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    OPENAI_API_KEY = "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"
+  │    OPENAI_API_KEY = "[REDACTED_API_KEY]"
   │
   │ 🕐 发现时间: 2025-10-16 03:02:16
   │
@@ -68,7 +68,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    embeddings = OpenAIEmbeddings(openai_api_key="sk-F7s3C15MRa7UiL1r1nAFT3BlbkFJIim
+  │    embeddings = OpenAIEmbeddings(openai_api_key="[REDACTED_API_KEY]
   │
   │ 🕐 发现时间: 2025-10-16 03:02:16
   │
@@ -94,7 +94,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    openai.api_key = "sk-CDUDYs3rDIq1n4L9iS2AG3B2bkFJzWEvKLw8ys9ARv19D3DO"
+  │    openai.api_key = "[REDACTED_API_KEY]"
   │
   │ 🕐 发现时间: 2025-10-16 03:06:00
   │
@@ -112,7 +112,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    openai.api_key = "sk-CDUDYs3rDIq1n4L9iS2AG3B2bkFJzWEvKLw8ys9ARv19D3DO"
+  │    openai.api_key = "[REDACTED_API_KEY]"
   │
   │ 🕐 发现时间: 2025-10-16 03:06:00
   │
@@ -138,7 +138,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    openai.api_key = "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"
+  │    openai.api_key = "[REDACTED_API_KEY]"
   │
   │ 🕐 发现时间: 2025-10-16 03:39:31
   │
@@ -164,7 +164,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    os.environ["OPENAI_API_KEY"] ="sk-yxjhxT48HJqa30LBXpazT3BlbkFJWJB6OOE8GhTWJEOemR
+  │    os.environ["OPENAI_API_KEY"] ="[REDACTED_API_KEY]
   │
   │ 🕐 发现时间: 2025-10-16 03:42:08
   │
@@ -190,7 +190,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    openai.api_key = os.environ.get("sk-KKaB5nstnno8fLUa3B1ST3BlbkFJN0ic4Y3AiAgw4kDS
+  │    openai.api_key = os.environ.get("[REDACTED_API_KEY]
   │
   │ 🕐 发现时间: 2025-10-16 03:42:44
   │
@@ -208,7 +208,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    openai.api_key = "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"
+  │    openai.api_key = "[REDACTED_API_KEY]"
   │
   │ 🕐 发现时间: 2025-10-16 03:42:44
   │
@@ -234,7 +234,7 @@
   │ 🎯 匹配规则: 📌 Google AI/Gemini API Key 格式 (AIza...)
   │
   │ 💻 代码片段:
-  │    YOUTUBE_API_KEY = AIzaSyCIfWqAkkAMtY3dBhSD4bUxK2dh2JkCiJY
+  │    YOUTUBE_API_KEY = [REDACTED_GOOGLE_API_KEY]
   │
   │ 🕐 发现时间: 2025-10-16 03:48:32
   │
