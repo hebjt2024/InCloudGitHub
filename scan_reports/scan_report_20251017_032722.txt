@@ -32,7 +32,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    openai.api_key = "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"
+  │    openai.api_key = "[REDACTED_API_KEY]"
   │
   │ 🕐 发现时间: 2025-10-17 03:08:32
   │
@@ -50,7 +50,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    openai.api_key = "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"
+  │    openai.api_key = "[REDACTED_API_KEY]"
   │
   │ 🕐 发现时间: 2025-10-17 03:08:32
   │
@@ -68,7 +68,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    openai.api_key = "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"
+  │    openai.api_key = "[REDACTED_API_KEY]"
   │
   │ 🕐 发现时间: 2025-10-17 03:08:32
   │
