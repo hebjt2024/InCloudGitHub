@@ -32,7 +32,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    OPENAI_API_KEY ="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"
+  │    OPENAI_API_KEY ="[REDACTED_API_KEY]"
   │
   │ 🕐 发现时间: 2025-10-16 01:36:07
   │
@@ -58,7 +58,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    os.environ["OPENAI_API_KEY"] = "sk-V7SJB46yMJn4MR4yTTYyT3BlbkFJyxCPkVmAGaAT5KOOS
+  │    os.environ["OPENAI_API_KEY"] = "[REDACTED_API_KEY]
   │
   │ 🕐 发现时间: 2025-10-16 01:37:07
   │
@@ -84,7 +84,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    os.environ["OPENAI_API_KEY"] = "sk-JoABD96Rui1GWSrpJ6h78lTDEkbQG386TWBYZWLPQHoWe
+  │    os.environ["OPENAI_API_KEY"] = "[REDACTED_API_KEY]
   │
   │ 🕐 发现时间: 2025-10-16 01:39:22
   │
@@ -102,7 +102,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    os.environ["OPENAI_API_KEY"] = "sk-JoABD96Rui1GWSrpJ6h78lTDEkbQG386TWBYZWLPQHoWe
+  │    os.environ["OPENAI_API_KEY"] = "[REDACTED_API_KEY]
   │
   │ 🕐 发现时间: 2025-10-16 01:39:22
   │
@@ -120,7 +120,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    "os.environ[\"OPENAI_API_KEY\"] = \"sk-JoABD96Rui1GWSrpJ6h78lTDEkbQG386TWBYZWLPQ
+  │    "os.environ[\"OPENAI_API_KEY\"] = \"[REDACTED_API_KEY]
   │
   │ 🕐 发现时间: 2025-10-16 01:39:22
   │
@@ -138,7 +138,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    os.environ["OPENAI_API_KEY"] = "sk-JoABD96Rui1GWSrpJ6h78lTDEkbQG386TWBYZWLPQHoWe
+  │    os.environ["OPENAI_API_KEY"] = "[REDACTED_API_KEY]
   │
   │ 🕐 发现时间: 2025-10-16 01:39:22
   │
@@ -164,7 +164,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    "api_key": "sk-iVZ3N2WBXyUGJLOLbJXgVbZbRcIwrNAXPKlUpZOF4IKrdzSB",
+  │    "api_key": "[REDACTED_API_KEY]",
   │
   │ 🕐 发现时间: 2025-10-16 01:45:39
   │
@@ -182,7 +182,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    "api_key": "sk-lCsmD3pXeLBV7MbA9IkhY0vRbYEb6BJQlEiFU3JaHyoheeOB",
+  │    "api_key": "[REDACTED_API_KEY]",
   │
   │ 🕐 发现时间: 2025-10-16 01:45:39
   │
@@ -200,7 +200,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    "api_key": "sk-iVZ3N2WBXyUGJLOLbJXgVbZbRcIwrNAXPKlUpZOF4IKrdzSB",
+  │    "api_key": "[REDACTED_API_KEY]",
   │
   │ 🕐 发现时间: 2025-10-16 01:45:39
   │
@@ -218,7 +218,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    "api_key": "sk-lCsmD3pXeLBV7MbA9IkhY0vRbYEb6BJQlEiFU3JaHyoheeOB",
+  │    "api_key": "[REDACTED_API_KEY]",
   │
   │ 🕐 发现时间: 2025-10-16 01:45:39
   │
@@ -236,7 +236,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    "api_key": "sk-iVZ3N2WBXyUGJLOLbJXgVbZbRcIwrNAXPKlUpZOF4IKrdzSB",
+  │    "api_key": "[REDACTED_API_KEY]",
   │
   │ 🕐 发现时间: 2025-10-16 01:45:39
   │
@@ -254,7 +254,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    "api_key": "sk-lCsmD3pXeLBV7MbA9IkhY0vRbYEb6BJQlEiFU3JaHyoheeOB",
+  │    "api_key": "[REDACTED_API_KEY]",
   │
   │ 🕐 发现时间: 2025-10-16 01:45:39
   │
@@ -272,7 +272,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    "api_key": "sk-iVZ3N2WBXyUGJLOLbJXgVbZbRcIwrNAXPKlUpZOF4IKrdzSB",
+  │    "api_key": "[REDACTED_API_KEY]",
   │
   │ 🕐 发现时间: 2025-10-16 01:45:39
   │
@@ -290,7 +290,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    "api_key": "sk-lCsmD3pXeLBV7MbA9IkhY0vRbYEb6BJQlEiFU3JaHyoheeOB",
+  │    "api_key": "[REDACTED_API_KEY]",
   │
   │ 🕐 发现时间: 2025-10-16 01:45:39
   │
@@ -308,7 +308,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    "api_key": "sk-iVZ3N2WBXyUGJLOLbJXgVbZbRcIwrNAXPKlUpZOF4IKrdzSB",
+  │    "api_key": "[REDACTED_API_KEY]",
   │
   │ 🕐 发现时间: 2025-10-16 01:45:39
   │
@@ -326,7 +326,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    "api_key": "sk-lCsmD3pXeLBV7MbA9IkhY0vRbYEb6BJQlEiFU3JaHyoheeOB",
+  │    "api_key": "[REDACTED_API_KEY]",
   │
   │ 🕐 发现时间: 2025-10-16 01:45:39
   │
@@ -344,7 +344,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    "api_key": "sk-iVZ3N2WBXyUGJLOLbJXgVbZbRcIwrNAXPKlUpZOF4IKrdzSB",
+  │    "api_key": "[REDACTED_API_KEY]",
   │
   │ 🕐 发现时间: 2025-10-16 01:45:39
   │
@@ -362,7 +362,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    "api_key": "sk-lCsmD3pXeLBV7MbA9IkhY0vRbYEb6BJQlEiFU3JaHyoheeOB",
+  │    "api_key": "[REDACTED_API_KEY]",
   │
   │ 🕐 发现时间: 2025-10-16 01:45:39
   │
@@ -380,7 +380,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    "api_key": "sk-iVZ3N2WBXyUGJLOLbJXgVbZbRcIwrNAXPKlUpZOF4IKrdzSB",
+  │    "api_key": "[REDACTED_API_KEY]",
   │
   │ 🕐 发现时间: 2025-10-16 01:45:39
   │
@@ -398,7 +398,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    "api_key": "sk-lCsmD3pXeLBV7MbA9IkhY0vRbYEb6BJQlEiFU3JaHyoheeOB",
+  │    "api_key": "[REDACTED_API_KEY]",
   │
   │ 🕐 发现时间: 2025-10-16 01:45:39
   │
@@ -416,7 +416,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    "api_key": "sk-iVZ3N2WBXyUGJLOLbJXgVbZbRcIwrNAXPKlUpZOF4IKrdzSB",
+  │    "api_key": "[REDACTED_API_KEY]",
   │
   │ 🕐 发现时间: 2025-10-16 01:45:39
   │
@@ -434,7 +434,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    "api_key": "sk-iVZ3N2WBXyUGJLOLbJXgVbZbRcIwrNAXPKlUpZOF4IKrdzSB",
+  │    "api_key": "[REDACTED_API_KEY]",
   │
   │ 🕐 发现时间: 2025-10-16 01:45:39
   │
@@ -452,7 +452,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    "api_key": "sk-lCsmD3pXeLBV7MbA9IkhY0vRbYEb6BJQlEiFU3JaHyoheeOB",
+  │    "api_key": "[REDACTED_API_KEY]",
   │
   │ 🕐 发现时间: 2025-10-16 01:45:39
   │
@@ -470,7 +470,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    CUSTOM_API_KEY = "sk-lCsmD3pXeLBV7MbA9IkhY0vRbYEb6BJQlEiFU3JaHyoheeOB"  # 替换为服务商
+  │    CUSTOM_API_KEY = "[REDACTED_API_KEY]"  # 替换为服务商
   │
   │ 🕐 发现时间: 2025-10-16 01:45:39
   │
@@ -496,7 +496,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    OPENAI_API_KEY="sk-abcdef1234567890abcdef1234567890abcdef12"
+  │    OPENAI_API_KEY="[REDACTED_API_KEY]"
   │
   │ 🕐 发现时间: 2025-10-16 01:46:15
   │
