@@ -1406,8 +1406,358 @@
       "findings_count": 0,
       "scan_type": "auto:ai-projects",
       "scan_count": 1
+    },
+    "lime728/MIRAGE": {
+      "first_scan": "2026-05-22 06:10:42",
+      "last_scan": "2026-05-22 06:10:42",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "KeeperHihi/Wcf": {
+      "first_scan": "2026-05-22 06:10:52",
+      "last_scan": "2026-05-22 06:10:52",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "mnick-yt/Chat-Bot-using-gpt-3.5-turbo": {
+      "first_scan": "2026-05-22 06:11:00",
+      "last_scan": "2026-05-22 06:11:00",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "smiller1551/foxitory": {
+      "first_scan": "2026-05-22 06:11:05",
+      "last_scan": "2026-05-22 06:11:05",
+      "findings_count": 1,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "luckyducky037/DaVinci-Solve": {
+      "first_scan": "2026-05-22 06:11:14",
+      "last_scan": "2026-05-22 06:11:14",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "userVincent/shortform_content_generation": {
+      "first_scan": "2026-05-22 06:11:33",
+      "last_scan": "2026-05-22 06:11:33",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "JXZhou0224/EmoAgent": {
+      "first_scan": "2026-05-22 06:11:57",
+      "last_scan": "2026-05-22 06:11:57",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "mailoalex/sensai": {
+      "first_scan": "2026-05-22 06:12:01",
+      "last_scan": "2026-05-22 06:12:01",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "severian42/GraphRAG-Local-UI": {
+      "first_scan": "2026-05-22 06:14:53",
+      "last_scan": "2026-05-22 06:14:53",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:failed",
+      "scan_count": 1
+    },
+    "ngoodman/metaprompt": {
+      "first_scan": "2026-05-22 06:15:01",
+      "last_scan": "2026-05-22 06:15:01",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "SalesforceAIResearch/indict_code_gen": {
+      "first_scan": "2026-05-22 06:15:27",
+      "last_scan": "2026-05-22 06:15:27",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "jaisai2512/EDA": {
+      "first_scan": "2026-05-22 06:15:33",
+      "last_scan": "2026-05-22 06:15:33",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "jaisai2512/EDA2": {
+      "first_scan": "2026-05-22 06:15:50",
+      "last_scan": "2026-05-22 06:15:50",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "partner0307/python-web-scrapping": {
+      "first_scan": "2026-05-22 06:34:36",
+      "last_scan": "2026-05-22 06:34:36",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:failed",
+      "scan_count": 1
+    },
+    "aakageSama/returnjourneyproject": {
+      "first_scan": "2026-05-22 06:34:46",
+      "last_scan": "2026-05-22 06:34:46",
+      "findings_count": 3,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "Kemi-Elizabeth/tweet-generator-app": {
+      "first_scan": "2026-05-22 06:39:57",
+      "last_scan": "2026-05-22 06:39:57",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "Jatadhar16/IBM_AI_RESUME_SCREENING": {
+      "first_scan": "2026-05-22 06:39:58",
+      "last_scan": "2026-05-22 06:39:58",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "RishikeshSharmak/chatbot": {
+      "first_scan": "2026-05-22 06:39:58",
+      "last_scan": "2026-05-22 06:39:58",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "fabian012345/Ai_resume_analyser": {
+      "first_scan": "2026-05-22 06:39:58",
+      "last_scan": "2026-05-22 06:39:58",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "beandy-dev/GLOBAL_SOLUTIONS-Proposta_de_solucao_do_problema_da_fome_usando_IA_generativa": {
+      "first_scan": "2026-05-22 06:39:58",
+      "last_scan": "2026-05-22 06:39:58",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "tusharks02/ChatBot": {
+      "first_scan": "2026-05-22 06:39:59",
+      "last_scan": "2026-05-22 06:39:59",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "parambirla/chatbot1": {
+      "first_scan": "2026-05-22 06:39:59",
+      "last_scan": "2026-05-22 06:39:59",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "Tej-ashwani/Resume-Analyser-Minor": {
+      "first_scan": "2026-05-22 06:39:59",
+      "last_scan": "2026-05-22 06:39:59",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "MohakSharma2507/AIResumeReviewer": {
+      "first_scan": "2026-05-22 06:39:59",
+      "last_scan": "2026-05-22 06:39:59",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "tcotidiane33/gpt_3.5_turbo": {
+      "first_scan": "2026-05-22 06:40:00",
+      "last_scan": "2026-05-22 06:40:00",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "walid385/WPR2_chatbot_widget_blue_new": {
+      "first_scan": "2026-05-22 06:40:00",
+      "last_scan": "2026-05-22 06:40:00",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "BeastxD7/Medical-ChatBot": {
+      "first_scan": "2026-05-22 06:40:00",
+      "last_scan": "2026-05-22 06:40:00",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "MrDedalus/Novus": {
+      "first_scan": "2026-05-22 06:40:00",
+      "last_scan": "2026-05-22 06:40:00",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "Shivam909058/fixing": {
+      "first_scan": "2026-05-22 06:40:01",
+      "last_scan": "2026-05-22 06:40:01",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "JoNeedsSleep/machiave-llm": {
+      "first_scan": "2026-05-22 06:40:01",
+      "last_scan": "2026-05-22 06:40:01",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "AdrianGlauben/writing-agent": {
+      "first_scan": "2026-05-22 06:40:01",
+      "last_scan": "2026-05-22 06:40:01",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "kris70lesgo/Browser": {
+      "first_scan": "2026-05-22 06:40:02",
+      "last_scan": "2026-05-22 06:40:02",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "omertait/AgenT": {
+      "first_scan": "2026-05-22 06:40:02",
+      "last_scan": "2026-05-22 06:40:02",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "FritzHeider/AutoTrainerX": {
+      "first_scan": "2026-05-22 06:40:02",
+      "last_scan": "2026-05-22 06:40:02",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "lindsaygross/JobSkills-Detector": {
+      "first_scan": "2026-05-22 06:40:02",
+      "last_scan": "2026-05-22 06:40:02",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "shriyaedu/Galileo-Hackathon-2025": {
+      "first_scan": "2026-05-22 06:40:03",
+      "last_scan": "2026-05-22 06:40:03",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "moebachar/resume-processor": {
+      "first_scan": "2026-05-22 06:40:03",
+      "last_scan": "2026-05-22 06:40:03",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "SnJake/SnJakeNodes": {
+      "first_scan": "2026-05-22 06:40:03",
+      "last_scan": "2026-05-22 06:40:03",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "Rhishi-04/TDS-Virtual-TA-API": {
+      "first_scan": "2026-05-22 06:40:03",
+      "last_scan": "2026-05-22 06:40:03",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "SusheelThapa/Quine-DevQuine": {
+      "first_scan": "2026-05-22 06:40:04",
+      "last_scan": "2026-05-22 06:40:04",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "arushkumarsingh/The-Better-Hack": {
+      "first_scan": "2026-05-22 06:40:04",
+      "last_scan": "2026-05-22 06:40:04",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "Hun-Bot2/exam_system": {
+      "first_scan": "2026-05-22 06:40:04",
+      "last_scan": "2026-05-22 06:40:04",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "AIHackaton-CodeBusters/BHAkademskiImenik": {
+      "first_scan": "2026-05-22 06:40:04",
+      "last_scan": "2026-05-22 06:40:04",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "AdiistheGoat/ShortNExact": {
+      "first_scan": "2026-05-22 06:40:05",
+      "last_scan": "2026-05-22 06:40:05",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "WareOnGo/Warehouse-Agentic-Chatbot": {
+      "first_scan": "2026-05-22 06:40:05",
+      "last_scan": "2026-05-22 06:40:05",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "Preetam3620/AI-Shopping-Assistant": {
+      "first_scan": "2026-05-22 06:40:05",
+      "last_scan": "2026-05-22 06:40:05",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "yadavanujkumar/Council-of-llms": {
+      "first_scan": "2026-05-22 06:40:06",
+      "last_scan": "2026-05-22 06:40:06",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "Yusei-Tanaka/MyProject": {
+      "first_scan": "2026-05-22 06:40:06",
+      "last_scan": "2026-05-22 06:40:06",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "ICFMentors/Language-Learning-Mission": {
+      "first_scan": "2026-05-22 06:40:06",
+      "last_scan": "2026-05-22 06:40:06",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
+    },
+    "socketteer/loom": {
+      "first_scan": "2026-05-22 06:40:06",
+      "last_scan": "2026-05-22 06:40:06",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:no-access",
+      "scan_count": 1
     }
   },
-  "total_scanned": 201,
-  "last_updated": "2026-04-03 00:55:14"
+  "total_scanned": 251,
+  "last_updated": "2026-05-22 06:40:06"
 }
