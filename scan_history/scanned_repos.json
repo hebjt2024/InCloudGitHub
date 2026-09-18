@@ -1406,8 +1406,358 @@
       "findings_count": 0,
       "scan_type": "auto:ai-projects",
       "scan_count": 1
+    },
+    "ba31k/ccost": {
+      "first_scan": "2026-09-18 07:08:47",
+      "last_scan": "2026-09-18 07:08:47",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "derrickrose/review-gen-ai": {
+      "first_scan": "2026-09-18 07:09:30",
+      "last_scan": "2026-09-18 07:09:30",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "IncomeStreamSurfer/autobloggingv2": {
+      "first_scan": "2026-09-18 07:09:33",
+      "last_scan": "2026-09-18 07:09:33",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "SkywalkerDarren/chatWeb": {
+      "first_scan": "2026-09-18 07:09:49",
+      "last_scan": "2026-09-18 07:09:49",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "heiko-braun/cai": {
+      "first_scan": "2026-09-18 07:10:44",
+      "last_scan": "2026-09-18 07:10:44",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "mbchang/panel_simulation": {
+      "first_scan": "2026-09-18 07:10:52",
+      "last_scan": "2026-09-18 07:10:52",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "Batlez/AI-Interview-Assist": {
+      "first_scan": "2026-09-18 07:11:00",
+      "last_scan": "2026-09-18 07:11:00",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "Chamanrajragu/purffle-shorts": {
+      "first_scan": "2026-09-18 07:11:08",
+      "last_scan": "2026-09-18 07:11:08",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "patrickmaub/Function-Call-Extender": {
+      "first_scan": "2026-09-18 07:11:15",
+      "last_scan": "2026-09-18 07:11:15",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "EthanFalcao/Defi_Options_Implied_Volatility": {
+      "first_scan": "2026-09-18 07:11:20",
+      "last_scan": "2026-09-18 07:11:20",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:failed",
+      "scan_count": 1
+    },
+    "2005-PriyanshuSaini/AutoSocial-AI": {
+      "first_scan": "2026-09-18 07:11:43",
+      "last_scan": "2026-09-18 07:11:43",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "sidhurt/aqueitas": {
+      "first_scan": "2026-09-18 07:12:31",
+      "last_scan": "2026-09-18 07:12:31",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "CieloVistaSoftware/PythonOpenAI": {
+      "first_scan": "2026-09-18 07:12:38",
+      "last_scan": "2026-09-18 07:12:38",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:failed",
+      "scan_count": 1
+    },
+    "QodiCat/TrendingGet": {
+      "first_scan": "2026-09-18 07:15:02",
+      "last_scan": "2026-09-18 07:15:02",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "pheonix-19/grid": {
+      "first_scan": "2026-09-18 07:15:36",
+      "last_scan": "2026-09-18 07:15:36",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:failed",
+      "scan_count": 1
+    },
+    "Z3R0x7/Nexus-CLI": {
+      "first_scan": "2026-09-18 07:15:45",
+      "last_scan": "2026-09-18 07:15:45",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "ColtG-py/PokeScanner": {
+      "first_scan": "2026-09-18 07:16:25",
+      "last_scan": "2026-09-18 07:16:25",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:failed",
+      "scan_count": 1
+    },
+    "DanielGraue/flatlander_lab": {
+      "first_scan": "2026-09-18 07:16:44",
+      "last_scan": "2026-09-18 07:16:44",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "mehbinac/pathway-ai-bootcamp": {
+      "first_scan": "2026-09-18 07:16:56",
+      "last_scan": "2026-09-18 07:16:56",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "Melokeo/clipboard-citation-pickup": {
+      "first_scan": "2026-09-18 07:17:04",
+      "last_scan": "2026-09-18 07:17:04",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "zdragg/museum_bot": {
+      "first_scan": "2026-09-18 07:17:31",
+      "last_scan": "2026-09-18 07:17:31",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "mikedewar/percy": {
+      "first_scan": "2026-09-18 07:17:38",
+      "last_scan": "2026-09-18 07:17:38",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "jimicy/toucan-ai": {
+      "first_scan": "2026-09-18 07:18:23",
+      "last_scan": "2026-09-18 07:18:23",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "Kanyi254/AI-Linux": {
+      "first_scan": "2026-09-18 07:18:27",
+      "last_scan": "2026-09-18 07:18:27",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "loryfelnunez/Gulliver": {
+      "first_scan": "2026-09-18 07:18:46",
+      "last_scan": "2026-09-18 07:18:46",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "raul-arrabales/ExaminatorPlus": {
+      "first_scan": "2026-09-18 07:19:19",
+      "last_scan": "2026-09-18 07:19:19",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "Enriquefft/Reganvi-wsp": {
+      "first_scan": "2026-09-18 07:19:40",
+      "last_scan": "2026-09-18 07:19:40",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "shikhadiwakar/Cognito": {
+      "first_scan": "2026-09-18 07:19:45",
+      "last_scan": "2026-09-18 07:19:45",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "hu-po/distillator": {
+      "first_scan": "2026-09-18 07:19:51",
+      "last_scan": "2026-09-18 07:19:51",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "Chatbot-Mental-Health/Mental-Health-Chatbot": {
+      "first_scan": "2026-09-18 07:20:00",
+      "last_scan": "2026-09-18 07:20:00",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "anknpolley123/SubuGPT": {
+      "first_scan": "2026-09-18 07:20:11",
+      "last_scan": "2026-09-18 07:20:11",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "abhishekkumar62000/TechSeva-IT-Recruitment-Agent.AI": {
+      "first_scan": "2026-09-18 07:20:18",
+      "last_scan": "2026-09-18 07:20:18",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "lijiehan72/ask": {
+      "first_scan": "2026-09-18 07:20:22",
+      "last_scan": "2026-09-18 07:20:22",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "aquam503/auto_quiz": {
+      "first_scan": "2026-09-18 07:20:28",
+      "last_scan": "2026-09-18 07:20:28",
+      "findings_count": 1,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "godlygodzilla/Turing-Test-ChatGPT_poem_classifier": {
+      "first_scan": "2026-09-18 07:20:33",
+      "last_scan": "2026-09-18 07:20:33",
+      "findings_count": 1,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "bizmo-soft/LLM_PDF_QA_Bot": {
+      "first_scan": "2026-09-18 07:20:36",
+      "last_scan": "2026-09-18 07:20:36",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "Samoppakiks/autofiles": {
+      "first_scan": "2026-09-18 07:20:47",
+      "last_scan": "2026-09-18 07:20:47",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "thamolwanpo/intellimatch-system": {
+      "first_scan": "2026-09-18 07:20:53",
+      "last_scan": "2026-09-18 07:20:53",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:failed",
+      "scan_count": 1
+    },
+    "judywq/VocQGen-streamlit": {
+      "first_scan": "2026-09-18 07:21:37",
+      "last_scan": "2026-09-18 07:21:37",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "Rajiv714/AVST_DB_BC": {
+      "first_scan": "2026-09-18 07:21:54",
+      "last_scan": "2026-09-18 07:21:54",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "tckwgd/paperGPT": {
+      "first_scan": "2026-09-18 07:22:14",
+      "last_scan": "2026-09-18 07:22:14",
+      "findings_count": 3,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "WaffleCollege/debuggers": {
+      "first_scan": "2026-09-18 07:22:50",
+      "last_scan": "2026-09-18 07:22:50",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "KONF1GG/core-api": {
+      "first_scan": "2026-09-18 07:23:15",
+      "last_scan": "2026-09-18 07:23:15",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "Guj2023/sound.sys.ai": {
+      "first_scan": "2026-09-18 07:23:18",
+      "last_scan": "2026-09-18 07:23:18",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "SeniorDesign14/SeniorDesignProject": {
+      "first_scan": "2026-09-18 07:25:01",
+      "last_scan": "2026-09-18 07:25:01",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "Desmond112998/five-guys-summarize-tg-bot": {
+      "first_scan": "2026-09-18 07:25:15",
+      "last_scan": "2026-09-18 07:25:15",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "AIdventures/masterclass_streamlit": {
+      "first_scan": "2026-09-18 07:25:25",
+      "last_scan": "2026-09-18 07:25:25",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "Kerenj2123/Keren_tnsdcgenai": {
+      "first_scan": "2026-09-18 07:25:30",
+      "last_scan": "2026-09-18 07:25:30",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
+    },
+    "rosa-lie/chunkRAG": {
+      "first_scan": "2026-09-18 07:25:49",
+      "last_scan": "2026-09-18 07:25:49",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects:failed",
+      "scan_count": 1
+    },
+    "bajajcodes/ghl-server": {
+      "first_scan": "2026-09-18 07:26:06",
+      "last_scan": "2026-09-18 07:26:06",
+      "findings_count": 0,
+      "scan_type": "auto:ai-projects",
+      "scan_count": 1
     }
   },
-  "total_scanned": 201,
-  "last_updated": "2026-04-03 00:55:14"
+  "total_scanned": 251,
+  "last_updated": "2026-09-18 07:26:06"
 }
