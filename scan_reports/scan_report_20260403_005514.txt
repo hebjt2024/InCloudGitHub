@@ -94,7 +94,7 @@
   │ 🎯 匹配规则: 📌 OpenAI Project API Key 格式 (sk-proj-...)
   │
   │ 💻 代码片段:
-  │    OPENAI_API_KEY=sk-proj-6lLgO3K2g28B60Z85fZXT3BlbkFJArdOVFejkIZfPHFoj4KM
+  │    OPENAI_API_KEY=[REDACTED_API_KEY]
   │
   │ 🕐 发现时间: 2026-04-03 00:07:30
   │
@@ -120,7 +120,7 @@
   │ 🎯 匹配规则: 📌 OpenAI API Key 格式 (sk-...)
   │
   │ 💻 代码片段:
-  │    API_KEY_VALUE = "sk-CwGlwb6ck4HikQZk2e3922AeBa5e4a64A2Cb4d647d8d72Ed" # 请替换为你的真实
+  │    API_KEY_VALUE = "[REDACTED_API_KEY]" # 请替换为你的真实
   │
   │ 🕐 发现时间: 2026-04-03 00:13:49
   │
